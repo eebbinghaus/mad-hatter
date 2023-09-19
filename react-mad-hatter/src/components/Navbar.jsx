@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
         <div>
+            <Link className="" aria-current="page" to="/">
+                Logo Placeholder
+            </Link>
             <ul className="flex justify-end">
                 <li>
                     <Link className={"mr-8"} aria-current="page" to="/sale">
